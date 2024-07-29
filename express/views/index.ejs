@@ -1,0 +1,12 @@
+<h2>ini halaman <%= nama %> </h2>
+
+
+<h4>Daftar mahasiswa</h4>
+
+<% mahasiswa.forEach(mhs => { %>
+<ul>
+    <li>nama : <%= mhs.nama %></li>
+    <li>email : <%= mhs.email %> </li>
+</ul>
+
+<% }) %>
